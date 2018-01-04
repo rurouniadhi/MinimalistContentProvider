@@ -43,8 +43,8 @@ class MiniContentProvider : ContentProvider() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun query(p0: Uri?, p1: Array<out String>?, p2: String?, p3: Array<out String>?, p4: String?): Cursor {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun query(uri: Uri, projection: Array<String>?, selection: String?, selectionArgs: Array<String>?, sortOrder: String): Cursor {
+
     }
 
     override fun insert(p0: Uri?, p1: ContentValues?): Uri {
